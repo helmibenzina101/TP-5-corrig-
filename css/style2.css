@@ -1,0 +1,58 @@
+*{
+    margin:0px;
+}
+html,body{
+    height: 100%;
+}
+body{
+    display:flex;
+}
+aside{
+    width: 15%;
+    height: 100%;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    border-right:1px solid black ;
+}
+article{
+
+    width:85%;
+    height: 100%;
+    background-color: white;
+}
+#boite{
+    position:absolute;
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn_color{
+    width: 50px;
+    height: 50px;
+    margin:5px;
+}
+
+#white{
+    border:10px ridge silver;
+    background-color: white;
+}
+#blue{
+    border:10px outset silver;
+    background-color: blue;
+}
+#black{
+    border:10px outset silver;
+    background-color: black;
+}
+#red{
+    border:10px outset silver;
+    background-color: red;
+}
+#green{
+    border:10px outset silver;
+    background-color: green;
+}
